@@ -23,6 +23,7 @@ class Pet(db.Model):
 
 # from one_to_may import Person,Pet
 
+# 如果我们在Person 中指定pets 的backref 为owner ，那么pet会自动添加一个属性owner  ,
 # spot = Pet(name='Spot',owner=anthony)
 # db.session.add(spot)
 # db.session.commit()
